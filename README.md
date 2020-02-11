@@ -28,7 +28,7 @@ ppcore.def_ppcore(hemi)
 
 ## License
 
--
+- APAC is licensed under the terms of the MIT license.
 
 ## Support
 

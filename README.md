@@ -19,9 +19,16 @@ path_out = '/path/folder/for/output/core'
 fs_path = '/freesurfer/output/path'
 hemi = 'L' # direction of hemisphere ['L' or 'R'] 
 
+# initialize core processor
 ppcore = apac.core.core(path_out)
-ppcore.call(fs_path)
+
+# load freesurfer output path ("fsaveage_LR32k") 
+ppcore.call(fs_path)  
+
+# define initial ROI using HCP-MMP atlas
 ppcore.initial_roi(hemi)
+
+# define ppcore
 ppcore.def_ppcore(hemi)
 ```
  
@@ -30,13 +37,11 @@ ppcore.def_ppcore(hemi)
 
 - APAC is licensed under the terms of the MIT license.
 
-## Support
+## Conference
 
-*
+- 'Fully automated parcellation of the primary auditory cortex', SfN 2019 [Link](https://www.abstractsonline.com/pp8/#!/7883/presentation/50268)
 
-## Paper
 
-*
 ## Core development team
 
 - Sean H. Lee - Max Planck Institute for empirical aesthetic

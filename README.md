@@ -47,4 +47,3 @@ ppcore.def_ppcore(hemi)
 - Sean H. Lee - Max Planck Institute for empirical aesthetic
 - Bo-yong Park, MICA Lab - Montreal Neurological Institute
 - Kyoungseob Byeon, MIPL - Sunkyunkwan University
-"# apac" 

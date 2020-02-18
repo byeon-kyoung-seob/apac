@@ -4,7 +4,7 @@ Automatic parcellation of auditory cortex (APAC)
 
 APAC is a lightweight module for parcellate human brain auditory cortex. It is primarily intended for dividing the auditory cortex into subregions.
 
-The current version of APAC requires preprocessed T1- and T2-weighted MRI data according to the [HCP pipelines](https://github.com/Washington-University/HCPpipelines).
+The current version of APAC requires preprocessed T1- and T2-weighted MRI data according to the [HCP pipelines](https://github.com/Washington-University/HCPpipelines). Essentially, MyelinMaps and Curvature data are required.
 
 ## Code
 

@@ -31,6 +31,15 @@ ppcore.call(fs_path)
 ppcore.initial_roi(hemi)
 
 # define ppcore
+'''
+Ouput files
+- all output cifti files are algined onto midthickness surface
+[hemi].pcore.func.gii : highly myelinated region (putative core, may be two clusters) 
+[hemi].clust.func.gii : masked highly myelinated clusters
+[hemi].border.func.gii : highly myelinated region with curvature value lower than 0
+[hemi].ppcore.func.gii : final preliminary putative core
+
+'''
 ppcore.def_ppcore(hemi)
 ```
  
